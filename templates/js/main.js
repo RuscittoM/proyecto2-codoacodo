@@ -49,7 +49,7 @@ document.write(sup)
 
 // carrousel
 
-var imagenes =['img/principal2.png', 'img/principal.jpg' , 'img/images.jpg'],
+var imagenes =['/img/principal2.png', '/img/principal.jpg' , '/img/images.jpg'],
 cont=0;
 
 function carrousel (contenedor){
