@@ -23,12 +23,12 @@
             <section v-for="accesorio in accesorios">
 
                 <div class="container">
-                    <div class="card" style="width:31%; float:left; margin:1% 1%">
+                    <div class="card" style="width:28%; float:left; margin:1% 2%">
                         <img class="card-img-top" :src="accesorio.imagen" alt="Card image" >
                         <div class="card-body">
                             <h4 class="card-title">{{accesorio.nombre}}</h4>
-                            <p class="card-title">Stock:{{accesorio.stock}}</p>
-                            <p class="card-text">Precio:{{'$'+accesorio.precio}}</p>
+                            <p class="card-title">Stock: {{accesorio.stock}}</p>
+                            <p class="card-text">Precio: {{'$'+accesorio.precio}}</p>
                            <button class="btn btn-success" id="buttonComprar" >Comprar</button> 
                         </div>
                     </div>
